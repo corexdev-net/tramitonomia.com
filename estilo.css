@@ -1,6 +1,6 @@
 /* Tramitonomía · sitio del negocio de trámites (5 nov 2026). Marca: diseño A «Folio aprobado». */
 :root{
-  --azul:#12305B; --azul-2:#3E6DB5; --azul-claro:#E8EEF8; --ambar:#F2A900; --ambar-osc:#8A5F00;
+  --azul:#12305B; --azul-2:#3E6DB5; --azul-claro:#E8EEF8; --ambar:#FF6B4A; --ambar-osc:#B23A1F;
   --tinta:#0E1A2B; --gris:#4F5B6B; --linea:#DDE3EC; --fondo:#F5F7FB; --blanco:#FFFFFF;
   --radio:14px; --sombra:0 1px 2px rgba(14,26,43,.06),0 8px 24px rgba(14,26,43,.06);
 }
@@ -19,10 +19,10 @@ a:hover{color:var(--azul)}
 .marca{text-decoration:none}
 .logo{display:inline-flex;align-items:center;gap:10px}
 .logo img{width:34px;height:34px}
-.logo-txt{font-weight:800;font-size:25px;letter-spacing:-.035em;color:var(--azul);line-height:1}
+.logo-txt{font-family:'Sora',sans-serif;font-weight:700;font-size:25px;letter-spacing:-.04em;color:var(--tinta);line-height:1}
 .logo-txt b{font-weight:800;color:var(--azul-2)}
 .logo-blanco{margin-bottom:14px}
-.logo-blanco img{background:#fff;border-radius:50%;padding:5px;width:40px;height:40px}
+.logo-blanco img{background:#fff;border-radius:50%;padding:7px;width:42px;height:42px;box-sizing:border-box}
 .logo-blanco .logo-txt{color:#fff}
 .logo-blanco .logo-txt b{color:#8FB3F0}
 .menu{display:flex;gap:22px;margin-left:auto;flex-wrap:wrap}
@@ -31,7 +31,7 @@ a:hover{color:var(--azul)}
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:48px;padding:12px 22px;border-radius:12px;font-weight:700;font-size:16px;text-decoration:none;border:2px solid transparent;cursor:pointer;font-family:inherit;transition:transform .12s ease,background .12s ease}
 .btn:hover{transform:translateY(-1px)}
 .btn-primario{background:var(--ambar);color:var(--tinta)}
-.btn-primario:hover{background:#FFB915;color:var(--tinta)}
+.btn-primario:hover{background:#FF8466;color:var(--tinta)}
 .btn-azul{background:var(--azul);color:#fff}
 .btn-azul:hover{background:#0B2346;color:#fff}
 .btn-borde{background:transparent;color:var(--azul);border-color:var(--azul)}
@@ -43,6 +43,7 @@ a:hover{color:var(--azul)}
 .portada{background:linear-gradient(180deg,var(--fondo),#fff);padding:72px 0 64px}
 .portada .contenedor{display:grid;grid-template-columns:1.15fr .85fr;gap:56px;align-items:center}
 .etiqueta{display:inline-block;background:var(--azul-claro);color:var(--azul);font-weight:700;font-size:14px;padding:6px 12px;border-radius:999px;letter-spacing:.02em}
+h1,h2,h3,.final h2{font-family:'Sora','Plus Jakarta Sans',sans-serif}
 h1{font-size:clamp(36px,5vw,58px);line-height:1.08;letter-spacing:-.03em;margin:18px 0 18px;color:var(--azul)}
 h1 em{font-style:normal;color:var(--azul-2)}
 .portada p.sub{font-size:20px;color:var(--gris);max-width:560px;margin:0 0 30px}
@@ -144,7 +145,8 @@ footer .legal-pie{border-top:1px solid #22344F;margin-top:40px;padding-top:22px;
 main.legal{max-width:780px;margin:0 auto;padding:48px 20px 24px}
 main.legal header{margin-bottom:28px}
 main.legal header a{text-decoration:none}
-main.legal h1{font-size:clamp(30px,4vw,40px);margin:0 0 6px}
+main.legal h1,h2,h3,.final h2{font-family:'Sora','Plus Jakarta Sans',sans-serif}
+h1{font-size:clamp(30px,4vw,40px);margin:0 0 6px}
 main.legal h2{font-size:22px;margin:34px 0 10px}
 main.legal .fecha{color:var(--gris);margin:0 0 24px}
 main.legal p,main.legal li{color:#2A3646}
