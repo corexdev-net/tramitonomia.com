@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tramitonomía · Gestión de trámites de gobierno en México</title>
+<meta name="description" content="Te decimos qué necesitas, cuánto cuesta y gestionamos tu trámite: actas, CURP, SAT, IMSS, Infonavit y citas. Cotización gratis por WhatsApp.">
+<meta property="og:title" content="Tramitonomía · Tus trámites, paso a paso">
+<meta property="og:description" content="Gestión de trámites de gobierno en México: actas, CURP, SAT, IMSS, Infonavit y citas. Cotización gratis.">
+<meta property="og:image" content="https://tramitonomia.com/compartir.jpg">
+<meta property="og:url" content="https://tramitonomia.com/">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#12305B">
+<link rel="icon" href="icono.png" type="image/png">
+<link rel="apple-touch-icon" href="icono.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="estilo.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"ProfessionalService","name":"Tramitonomía","url":"https://tramitonomia.com/","email":"contacto@tramitonomia.com","areaServed":"MX","description":"Gestión y asesoría de trámites de gobierno en México."}</script>
+</head>
+<body>
+<a href="#contenido" style="position:absolute;left:-9999px">Saltar al contenido</a>
+<header class="barra">
+  <div class="contenedor">
+    <a class="marca" href="index.html"><span class="logo"><img src="simbolo.png" alt="" width="34" height="34"><span class="logo-txt">Tramito<b>nomía</b></span></span></a>
+    <nav class="menu" aria-label="Menú principal">
+      <a href="#servicios">Servicios</a>
+      <a href="#como-funciona">Cómo funciona</a>
+      <a href="#guias">Guías gratis</a>
+      <a href="#preguntas">Preguntas</a>
+    </nav>
+    <a class="btn btn-primario js-wa" href="mailto:contacto@tramitonomia.com?subject=Cotizaci%C3%B3n%20de%20tr%C3%A1mite" data-msg="Hola, quiero cotizar un trámite.">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a9 9 0 0 1-13.4 7.9L3 21l1.2-4.4A9 9 0 1 1 21 12z"></path></svg><span>Cotizar gratis</span>
+    </a>
+  </div>
+</header>
+
+<main id="contenido">
+<section class="portada">
+  <div class="contenedor">
+    <div>
+      <span class="etiqueta">Gestoría de trámites · Todo México</span>
+      <h1>Tus trámites de gobierno, <em>sin vueltas.</em></h1>
+      <p class="sub">Te decimos qué necesitas, cuánto cuesta y lo gestionamos por ti. Actas, CURP, SAT, IMSS, Infonavit y citas, desde tu celular.</p>
+      <div class="acciones">
+        <a class="btn btn-azul js-wa" href="mailto:contacto@tramitonomia.com?subject=Cotizaci%C3%B3n%20de%20tr%C3%A1mite" data-msg="Hola, quiero cotizar un trámite.">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a9 9 0 0 1-13.4 7.9L3 21l1.2-4.4A9 9 0 1 1 21 12z"></path></svg>Escríbenos por WhatsApp
+        </a>
+        <a class="btn btn-borde" href="#servicios">Ver servicios</a>
+      </div>
+      <ul class="confianza">
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg>Cotización gratis</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg>Precio por escrito antes de empezar</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg>Información de fuentes oficiales</li>
+      </ul>
+    </div>
+
+    <form class="cotiza" id="cotiza" aria-labelledby="cotiza-titulo">
+      <h2 id="cotiza-titulo">Cotiza tu trámite</h2>
+      <p>Te respondemos con requisitos, costo y tiempo estimado.</p>
+      <div class="campo">
+        <label for="c-tramite">¿Qué trámite necesitas?</label>
+        <select id="c-tramite" required>
+          <option value="">Elige una opción</option>
+          <option>Acta de nacimiento certificada</option>
+          <option>CURP (consulta o corrección)</option>
+          <option>SAT: RFC, constancia o e.firma</option>
+          <option>Cita para pasaporte</option>
+          <option>IMSS: semanas cotizadas o NSS</option>
+          <option>Infonavit o Afore</option>
+          <option>Licencia de conducir</option>
+          <option>Otro trámite</option>
+        </select>
+      </div>
+      <div class="campo">
+        <label for="c-nombre">Tu nombre</label>
+        <input id="c-nombre" type="text" autocomplete="given-name" required>
+      </div>
+      <div class="campo">
+        <label for="c-estado">Estado donde vives</label>
+        <input id="c-estado" type="text" autocomplete="address-level1" placeholder="Ej. Jalisco">
+      </div>
+      <button class="btn btn-primario" type="submit">Pedir cotización</button>
+      <small>Sin compromiso. No pedimos documentos hasta que aceptes la cotización.</small>
+    </form>
+  </div>
+</section>
+
+<div class="aviso" role="note">
+  <div class="contenedor">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><path d="M12 8v4M12 16h.01"></path></svg>
+    <p style="margin:0"><strong>No somos una dependencia de gobierno.</strong> Somos un servicio privado de gestoría. Los pagos de derechos se hacen en los canales oficiales; nuestro cobro es por el servicio y te lo decimos antes.</p>
+  </div>
+</div>
+
+<section class="bloque" id="servicios">
+  <div class="contenedor">
+    <div class="titulo">
+      <span class="antetitulo">Servicios</span>
+      <h2>Lo resolvemos por ti, o te decimos exactamente qué hacer</h2>
+      <p>Cuando el trámite es en línea, lo hacemos completo. Cuando la ley pide que vayas en persona, preparamos todo para que vayas una sola vez.</p>
+    </div>
+    <div class="servicios">
+      <article class="servicio">
+        <div class="icono"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"></path><path d="M14 3v5h5M9 13h6M9 17h4"></path></svg></div>
+        <h3>Acta de nacimiento certificada</h3>
+        <p>La tramitamos en el portal oficial y te la enviamos en PDF, válida para cualquier trámite.</p>
+        <div class="tu"><b>Tú:</b> solo nos das tu CURP.</div>
+      </article>
+      <article class="servicio">
+        <div class="icono"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"></rect><circle cx="9" cy="12" r="2.5"></circle><path d="M14 10h4M14 14h3"></path></svg></div>
+        <h3>CURP: consulta y corrección</h3>
+        <p>Obtenemos tu CURP certificada y, si tiene un error, preparamos la solicitud de corrección.</p>
+        <div class="tu"><b>Tú:</b> revisas y confirmas tus datos.</div>
+      </article>
+      <article class="servicio">
+        <div class="icono"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 21h18M5 21V10M19 21V10M9 21v-6M15 21v-6M2 10l10-6 10 6"></path></svg></div>
+        <h3>SAT: RFC, constancia y e.firma</h3>
+        <p>Tu constancia de situación fiscal, tu RFC y la cita para la e.firma, con la lista exacta de papeles.</p>
+        <div class="tu"><b>Tú:</b> vas a la cita solo si el SAT lo pide en persona.</div>
+      </article>
+      <article class="servicio">
+        <div class="icono"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="17" rx="2"></rect><path d="M16 2v4M8 2v4M3 10h18M9 15l2 2 4-4"></path></svg></div>
+        <h3>Citas: pasaporte y licencias</h3>
+        <p>Buscamos y agendamos tu cita y te mandamos qué llevar, cuánto pagar y dónde.</p>
+        <div class="tu"><b>Tú:</b> acudes a tu cita con tus documentos.</div>
+      </article>
+      <article class="servicio">
+        <div class="icono"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 11c0 5.6-7 10-7 10z"></path></svg></div>
+        <h3>IMSS: semanas cotizadas y NSS</h3>
+        <p>Tu reporte de semanas cotizadas y tu número de seguridad social, descargados de los portales oficiales.</p>
+        <div class="tu"><b>Tú:</b> nos das tu CURP y un correo.</div>
+      </article>
+      <article class="servicio">
+        <div class="icono"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 11 12 4l9 7"></path><path d="M5 10v10h14V10M10 20v-5h4v5"></path></svg></div>
+        <h3>Infonavit y Afore</h3>
+        <p>Revisamos tu precalificación, tus puntos y tu ahorro para el retiro, y te explicamos qué sigue.</p>
+        <div class="tu"><b>Tú:</b> nos acompañas en una llamada corta.</div>
+      </article>
+    </div>
+    <p class="nota-servicios">¿Tu trámite no está en la lista? <a class="js-wa" href="mailto:contacto@tramitonomia.com?subject=Otro%20tr%C3%A1mite" data-msg="Hola, necesito ayuda con un trámite que no está en la lista.">Pregúntanos</a>: si se puede hacer, te decimos cómo.</p>
+  </div>
+</section>
+
+<section class="bloque gris" id="como-funciona">
+  <div class="contenedor">
+    <div class="titulo">
+      <span class="antetitulo">Cómo funciona</span>
+      <h2>Cuatro pasos, sin filas</h2>
+    </div>
+    <ol class="pasos">
+      <li><h3>Escríbenos</h3><p>Cuéntanos qué trámite necesitas por WhatsApp o con el formulario.</p></li>
+      <li><h3>Recibe tu cotización</h3><p>Te mandamos por escrito los requisitos, el costo oficial, nuestro honorario y el tiempo estimado.</p></li>
+      <li><h3>Lo gestionamos</h3><p>Al aceptar, nos mandas solo lo indispensable y hacemos el trámite en los canales oficiales.</p></li>
+      <li><h3>Recibe tu documento</h3><p>Te lo enviamos por WhatsApp o correo, o te avisamos el día y la hora de tu cita.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section class="bloque">
+  <div class="contenedor">
+    <div class="titulo">
+      <span class="antetitulo">Por qué Tramitonomía</span>
+      <h2>Claridad antes que nada</h2>
+    </div>
+    <div class="razones">
+      <div class="razon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg><div><h3>Precio claro</h3><p>Separamos lo que cobra el gobierno de lo que cobramos nosotros. Sin cargos sorpresa.</p></div></div>
+      <div class="razon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="10" width="16" height="11" rx="2"></rect><path d="M8 10V7a4 4 0 0 1 8 0v3"></path></svg><div><h3>Tus datos, cuidados</h3><p>Pedimos solo lo indispensable, lo usamos solo para tu trámite y lo borramos al terminar.</p></div></div>
+      <div class="razon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V3H6.5A2.5 2.5 0 0 0 4 5.5z"></path><path d="M4 19.5A2.5 2.5 0 0 0 6.5 22H20v-5"></path></svg><div><h3>Fuentes oficiales</h3><p>Cada requisito lo revisamos en el portal de la dependencia, no en foros ni rumores.</p></div></div>
+      <div class="razon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a9 9 0 0 1-13.4 7.9L3 21l1.2-4.4A9 9 0 1 1 21 12z"></path></svg><div><h3>Te avisamos en cada paso</h3><p>Sabes en qué va tu trámite sin tener que preguntar.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="bloque gris" id="guias">
+  <div class="contenedor guias">
+    <div>
+      <span class="antetitulo" style="color:var(--azul-2);font-weight:800;font-size:14px;letter-spacing:.12em;text-transform:uppercase">Guías gratis</span>
+      <h2>¿Prefieres hacerlo tú? Te enseñamos gratis</h2>
+      <p style="color:var(--gris);font-size:18px;margin:0">En nuestro canal explicamos los trámites paso a paso: requisitos, costos, citas y los errores que te hacen perder tiempo.</p>
+      <div class="botones">
+    <a class="boton" href="https://www.youtube.com/@tramitonomia" rel="noopener">Ver en YouTube</a>
+    <a class="boton secundario" href="mailto:contacto@tramitonomia.com">Contacto</a>
+      </div>
+    </div>
+    <ul class="lista-guias">
+      <li><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"></path></svg>Cómo sacar tu acta de nacimiento en línea</li>
+      <li><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"></path></svg>Qué llevar a tu cita del pasaporte</li>
+      <li><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"></path></svg>Tu constancia de situación fiscal en 5 minutos</li>
+      <li><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"></path></svg>Cuántas semanas cotizadas tienes en el IMSS</li>
+    </ul>
+  </div>
+</section>
+
+<section class="bloque" id="preguntas">
+  <div class="contenedor">
+    <div class="titulo">
+      <span class="antetitulo">Preguntas frecuentes</span>
+      <h2>Lo que más nos preguntan</h2>
+    </div>
+    <div class="preguntas">
+      <details><summary>¿Ustedes son del gobierno?</summary><p>No. Tramitonomía es un servicio privado de gestoría y asesoría. Los derechos oficiales se pagan a la dependencia; nuestro honorario es aparte y siempre te lo decimos por escrito antes de empezar.</p></details>
+      <details><summary>¿Cuánto cuesta?</summary><p>Depende del trámite. Cotizar es gratis: te mandamos el costo oficial, nuestro honorario y el tiempo estimado, y tú decides si seguimos.</p></details>
+      <details><summary>¿Es seguro mandarles mis datos?</summary><p>Pedimos solo los datos indispensables para tu trámite, no los compartimos con nadie más y los borramos al terminar. Nunca te pediremos contraseñas de tu banco. Consulta nuestro <a href="privacidad.html">aviso de privacidad</a>.</p></details>
+      <details><summary>¿Cuánto tarda?</summary><p>Muchos trámites en línea quedan el mismo día. Los que llevan cita dependen de la disponibilidad de la dependencia; te damos el tiempo estimado al cotizar.</p></details>
+      <details><summary>¿Tengo que ir a alguna oficina?</summary><p>Solo cuando la ley lo exige (por ejemplo, el pasaporte o la e.firma). En esos casos agendamos tu cita y te preparamos todo para que vayas una sola vez.</p></details>
+      <details><summary>¿Cómo pago?</summary><p>Al aceptar tu cotización te enviamos los datos de pago de nuestro honorario. Los derechos oficiales se pagan en los canales de la dependencia.</p></details>
+    </div>
+  </div>
+</section>
+
+<section class="contenedor">
+  <div class="final">
+    <div>
+      <h2>¿Listo para quitarte ese pendiente?</h2>
+      <p>Escríbenos y en minutos te decimos qué necesitas.</p>
+    </div>
+    <a class="btn btn-primario js-wa" href="mailto:contacto@tramitonomia.com?subject=Cotizaci%C3%B3n%20de%20tr%C3%A1mite" data-msg="Hola, quiero cotizar un trámite.">Cotizar gratis</a>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="contenedor">
+    <div class="cols">
+      <div>
+        <span class="logo logo-blanco"><img src="simbolo.png" alt="" width="34" height="34"><span class="logo-txt">Tramito<b>nomía</b></span></span>
+        <p style="margin:0;max-width:340px">Gestión y asesoría de trámites de gobierno en México. Servicio privado, sin relación con ninguna dependencia oficial.</p>
+      </div>
+      <div>
+        <h4>Servicios</h4>
+        <ul><li><a href="#servicios">Actas y CURP</a></li><li><a href="#servicios">SAT</a></li><li><a href="#servicios">IMSS, Infonavit y Afore</a></li><li><a href="#servicios">Citas</a></li></ul>
+      </div>
+      <div>
+        <h4>Contacto</h4>
+        <ul><li><a class="js-wa" href="mailto:contacto@tramitonomia.com" data-msg="Hola, tengo una pregunta.">WhatsApp</a></li><li><a href="mailto:contacto@tramitonomia.com">contacto@tramitonomia.com</a></li><li><a href="privacidad.html">Aviso de privacidad</a></li><li><a href="terminos.html">Términos y condiciones</a></li></ul>
+      </div>
+    </div>
+    <div class="legal-pie"><span>© 2026 Tramitonomía · Un proyecto de Corexware</span><span>tramitonomia.com</span></div>
+  </div>
+</footer>
+
+<a class="flotante js-wa" href="mailto:contacto@tramitonomia.com" data-msg="Hola, quiero información sobre un trámite." aria-label="Escríbenos por WhatsApp">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a9 9 0 0 1-13.4 7.9L3 21l1.2-4.4A9 9 0 1 1 21 12z"></path></svg>
+</a>
+<script src="contacto.js"></script>
+</body>
+</html>
